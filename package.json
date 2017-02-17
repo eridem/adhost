@@ -1,0 +1,33 @@
+{
+  "name": "adhost",
+  "version": "0.0.1",
+  "description": "Manage adverts by their domains",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard --fix",
+    "prepublish": "npm test"
+  },
+  "keywords": [
+    "adverts",
+    "ads",
+    "hosts"
+  ],
+  "author": {
+    "name": "Miguel Ángel Domínguez Coloma",
+    "email": "m@eridem.net",
+    "url": "http://eridem.net"
+  },
+  "license": "MIT",
+  "homepage": "http://eridem.net",
+  "bugs": {
+    "url": "https://github.com/eridem/adhost/issues",
+    "email": "m@eridem.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eridem/adhost.git"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}
